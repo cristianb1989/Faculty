@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Graphs - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\cristian\AppData\Local\Temp\RSP6DA5.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Graphs.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\Graphs\graph.c"
+]
+Creating command line "cl.exe @C:\Users\cristian\AppData\Local\Temp\RSP6DA5.tmp" 
+Creating temporary file "C:\Users\cristian\AppData\Local\Temp\RSP6DA6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Graphs.pdb" /debug /machine:I386 /out:"Debug/Graphs.exe" /pdbtype:sept 
+".\Debug\graph.obj"
+".\Debug\linkedListGraphNode.obj"
+".\Debug\mainGraph.obj"
+]
+Creating command line "link.exe @C:\Users\cristian\AppData\Local\Temp\RSP6DA6.tmp"
+<h3>Output Window</h3>
+Compiling...
+graph.c
+d:\faculta\anul 2\semestrul 2\algoritmi\c\graphs\graph.c(14) : warning C4047: 'function' : 'struct linkedListGraph *' differs in levels of indirection from 'struct linkedListGraph ** '
+d:\faculta\anul 2\semestrul 2\algoritmi\c\graphs\graph.c(14) : warning C4024: 'insertNeighbour' : different types for formal and actual parameter 1
+d:\faculta\anul 2\semestrul 2\algoritmi\c\graphs\graph.c(16) : warning C4028: formal parameter 2 different from declaration
+d:\faculta\anul 2\semestrul 2\algoritmi\c\graphs\graph.c(16) : warning C4029: declared formal parameter list different from definition
+d:\faculta\anul 2\semestrul 2\algoritmi\c\graphs\graph.c(18) : warning C4047: 'function' : 'struct linkedListGraph *' differs in levels of indirection from 'struct linkedListGraph ** '
+d:\faculta\anul 2\semestrul 2\algoritmi\c\graphs\graph.c(18) : warning C4024: 'initNeighboursList' : different types for formal and actual parameter 1
+d:\faculta\anul 2\semestrul 2\algoritmi\c\graphs\graph.c(24) : warning C4047: '=' : 'struct linkedListGraph *' differs in levels of indirection from 'struct linkedListGraph ** '
+d:\faculta\anul 2\semestrul 2\algoritmi\c\graphs\graph.c(54) : warning C4133: '=' : incompatible types - from 'struct linkedListGraph *' to 'struct graphNode *'
+d:\faculta\anul 2\semestrul 2\algoritmi\c\graphs\graph.c(40) : warning C4700: local variable 'stack' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+Graphs.exe - 0 error(s), 9 warning(s)
+</pre>
+</body>
+</html>

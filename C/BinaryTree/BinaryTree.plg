@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BinaryTree - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\cristian\AppData\Local\Temp\RSPA51B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/BinaryTree.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c"
+]
+Creating command line "cl.exe @C:\Users\cristian\AppData\Local\Temp\RSPA51B.tmp" 
+Creating temporary file "C:\Users\cristian\AppData\Local\Temp\RSPA51C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/BinaryTree.pdb" /debug /machine:I386 /out:"Debug/BinaryTree.exe" /pdbtype:sept 
+".\Debug\activityselector.obj"
+".\Debug\binaryTree.obj"
+".\Debug\cut_rot.obj"
+".\Debug\main.obj"
+]
+Creating command line "link.exe @C:\Users\cristian\AppData\Local\Temp\RSPA51C.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.c
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(36) : warning C4013: 'cutRod' undefined; assuming extern returning int
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(41) : warning C4047: 'function' : 'struct arbore_struct *' differs in levels of indirection from 'struct arbore_struct ** '
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(41) : warning C4024: 'makeRoot' : different types for formal and actual parameter 1
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(45) : warning C4047: 'function' : 'struct arbore_struct *' differs in levels of indirection from 'struct arbore_struct ** '
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(45) : warning C4024: 'treeInsertByValue' : different types for formal and actual parameter 1
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(49) : warning C4047: 'function' : 'struct nod_arbore *' differs in levels of indirection from 'struct nod_arbore ** '
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(49) : warning C4024: 'inorderWalk' : different types for formal and actual parameter 1
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(51) : warning C4047: 'function' : 'struct nod_arbore *' differs in levels of indirection from 'struct nod_arbore ** '
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(51) : warning C4024: 'preorder_walk' : different types for formal and actual parameter 1
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(53) : warning C4047: 'function' : 'struct nod_arbore *' differs in levels of indirection from 'struct nod_arbore ** '
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(53) : warning C4024: 'postorder_walk' : different types for formal and actual parameter 1
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(56) : warning C4047: 'function' : 'struct nod_arbore *' differs in levels of indirection from 'struct nod_arbore ** '
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(56) : warning C4024: 'iterativeTreeSearch' : different types for formal and actual parameter 1
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(62) : warning C4047: 'function' : 'struct nod_arbore *' differs in levels of indirection from 'struct nod_arbore ** '
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(62) : warning C4024: 'treeSearch' : different types for formal and actual parameter 1
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(68) : warning C4047: 'function' : 'struct nod_arbore *' differs in levels of indirection from 'struct nod_arbore ** '
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(68) : warning C4024: 'MIN_TREE' : different types for formal and actual parameter 1
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(70) : warning C4047: 'function' : 'struct nod_arbore *' differs in levels of indirection from 'struct nod_arbore ** '
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(70) : warning C4024: 'MAX_TREE' : different types for formal and actual parameter 1
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(75) : warning C4047: 'function' : 'struct nod_arbore *' differs in levels of indirection from 'struct nod_arbore ** '
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(75) : warning C4024: 'iterativeTreeSearch' : different types for formal and actual parameter 1
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(80) : warning C4047: 'function' : 'struct nod_arbore *' differs in levels of indirection from 'struct nod_arbore ** '
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(80) : warning C4024: 'tree_delete' : different types for formal and actual parameter 1
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(82) : warning C4047: 'function' : 'struct nod_arbore *' differs in levels of indirection from 'struct nod_arbore ** '
+D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\BinaryTree\main.c(82) : warning C4024: 'inorderWalk' : different types for formal and actual parameter 1
+Linking...
+
+
+
+<h3>Results</h3>
+BinaryTree.exe - 0 error(s), 25 warning(s)
+</pre>
+</body>
+</html>

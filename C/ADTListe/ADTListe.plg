@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ADTListe - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\cristian\AppData\Local\Temp\RSP76EE.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/ADTListe.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\faculta\Anul 2\Semestrul 2\Algoritmi\C\ADTListe\linkedlist.c"
+]
+Creating command line "cl.exe @C:\Users\cristian\AppData\Local\Temp\RSP76EE.tmp" 
+<h3>Output Window</h3>
+Compiling...
+linkedlist.c
+d:\faculta\anul 2\semestrul 2\algoritmi\c\adtliste\linkedlist.c(62) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+linkedlist.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
